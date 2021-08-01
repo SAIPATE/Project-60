@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+}
+.menu{
+    list-style: none;
+    font-family: cursive;
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    right: 30;
+    z-index: 10;
+    cursor: pointer;
+    width: 100%;
+    background: red;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 2px 2px gains boro;
+}
+#welcome{
+    position: absolute;
+    height: 800px;
+    color: #ffffff;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.83;
+    background: linear-gradient(#3c5c45 0%, #541818 100%);
+    display: table;
+    width: 100%;
+    height: 100%    
+}
+.links{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+}
+.links: hover{
+    font-size: 25.5px;
+    text-decoration: underline;
+}
+.profile{
+    width: 175px;
+    border-radius:50%;
+    margin-bottom: 50px;     
+}
+#bio{
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+h1{
+    font-size: 30px;
+    color:firebrick;
+}
+p{
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 20px;
+    line-height: 1.3;
+}
+#name{
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+h2{
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+#contacts{
+    width: 100%;
+    background-color: darkblue;
+}
+#writings{
+    text-shadow: none;
+    text-decoration: underline;
+    color: mediumaquamarine;
+    background-color: black;
+}
